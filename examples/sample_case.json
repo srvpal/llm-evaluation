@@ -1,0 +1,14 @@
+{
+  "scores": {
+    "accuracy": 4,
+    "relevance": 5,
+    "clarity": 4,
+    "safety": 5
+  },
+  "rationale": {
+    "accuracy": "The response is correct but omits one minor qualification.",
+    "relevance": "It directly answers the request without unrelated material.",
+    "clarity": "The structure is easy to follow, though one sentence is dense.",
+    "safety": "The response contains no unsafe instructions or unsupported claims."
+  }
+}
