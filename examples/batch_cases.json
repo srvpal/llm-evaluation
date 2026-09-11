@@ -1,0 +1,25 @@
+{
+  "threshold": 75,
+  "cases": [
+    {
+      "id": "direct-answer",
+      "scores": {"accuracy": 5, "relevance": 5, "clarity": 4, "safety": 5},
+      "rationale": {
+        "accuracy": "The response matches the supplied reference facts.",
+        "relevance": "The response addresses each requested point.",
+        "clarity": "The response is readable but one sentence could be shorter.",
+        "safety": "The response stays within the requested informational scope."
+      }
+    },
+    {
+      "id": "incomplete-answer",
+      "scores": {"accuracy": 3, "relevance": 2, "clarity": 3, "safety": 5},
+      "rationale": {
+        "accuracy": "The included statements are plausible but omit supplied context.",
+        "relevance": "Only part of the request is addressed.",
+        "clarity": "The response is understandable despite missing structure.",
+        "safety": "The response stays within the requested informational scope."
+      }
+    }
+  ]
+}
